@@ -1,0 +1,56 @@
+/* DIN – Light */
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/din-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* DIN – Regular */
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/din-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* DIN – Medium */
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/din-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* DIN – Bold */
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/din-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+    font-family: 'DIN', sans-serif;
+}
+
+body {
+  background-color: #dab8a5;
+}
+
+.barra-superior {
+    background-color: #8f3f15;
+    color: white;
+    padding: 5px;
+
+}
+
+.endereco {
+    flex: auto;
+}
+
+.social i {
+    color: white;
+    padding: 5px;
+    
+}
