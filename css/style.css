@@ -1,33 +1,33 @@
 /* DIN – Light */
 @font-face {
-  font-family: 'DIN';
-  src: url('../fonts/din-light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'DIN';
+    src: url('../fonts/din-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* DIN – Regular */
 @font-face {
-  font-family: 'DIN';
-  src: url('../fonts/din-regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'DIN';
+    src: url('../fonts/din-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* DIN – Medium */
 @font-face {
-  font-family: 'DIN';
-  src: url('../fonts/din-medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
+    font-family: 'DIN';
+    src: url('../fonts/din-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* DIN – Bold */
 @font-face {
-  font-family: 'DIN';
-  src: url('../fonts/din-bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'DIN';
+    src: url('../fonts/din-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 * {
@@ -35,7 +35,7 @@
 }
 
 body {
-  background-color: #dab8a5;
+    background-color: #dab8a5;
 }
 
 .barra-superior {
@@ -47,10 +47,32 @@ body {
 
 .endereco {
     flex: auto;
+    margin-left: 5px;
 }
 
 .social i {
     color: white;
     padding: 5px;
-    
+    margin-right: 5px;
+
+}
+
+.logo {
+    width: 30%;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #8f3f15;
+}
+
+.navbar-nav .nav-link.active {
+    color: #7c866e;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #7c866e;
 }
